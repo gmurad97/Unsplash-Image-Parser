@@ -27,7 +27,7 @@ setInterval(() => {
 
 async function getUnsplashImage(searchWord, currentPage, showItemCount) {
     const response = await fetch(
-        "https://api.unsplash.com//search/photos" +
+        "https://api.unsplash.com/search/photos" +
         `?client_id=${accessKey}` +
         `&query=${searchWord}` +
         `&page=${currentPage}` +
